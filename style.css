@@ -17,47 +17,56 @@ body{
 	margin-right:auto;
 	background-color:#FF0000;
 }
-#container #menu-box{
-	width:965px;
-	height:55px;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#FFFB00;
-}
 #container #content{
 	width:965px;
 	height:920px;
 	background-color:#BABABA;
 }
-#container #content #breadcrumb-box{
+#container #content #menu-box{
 	width:965px;
 	height:35px;
 	background-color:#DEDEDE;
+	position:relative;
+}
+#container #content #menu-box #float-navbar{
+ 	align:center;
+ 	position:fixed;
+  	background-color:#dedede;
+ 	width:100%;
+ 	left:0px;
+ 	color:#000;
+ 	/*z-index:-1;*/
+ 	/*filter: alphaundefinedopacity: 80);*/
+	/*top:112;*/
+	left:auto;
+	right:auto;
+	width:965px;
+	height:35px; 
 }
 #container #content #box-kiri{
 	float:left;
 	margin-left:5px;
-	margin-top:5px;
+	margin-top:15px;
 	border:1px;
 	border-color:#000000;
 	background-color:#FFFFFF;
 	width:200px;
 	height:783px
 }
-#container #content #recent-product{
-	width:750px;
-	height:272px;
+#container #content #recent-product1{
+	width:740px;
+	height:136px;
 	float:right;
-	margin-left:5px;
-	margin-top:5px;
+	margin-left:15px;
+	margin-top:15px;
 	margin-right:5px;
 	background-color:#4f5eff;
 }
 #container #content #top-product{
-	width:750px;
+	width:740px;
 	height:506px;
 	float:right;
-	margin-left:5px;
+	margin-left:15px;
 	margin-top:5px;
 	margin-right:5px;
 	background-color:#4fffd3;
@@ -67,4 +76,17 @@ body{
 	height:60px;
 	margin-top:10px;
 	background-color:#800000;
+}
+.menu-top{
+	float:right;
+	margin-right:1px;
+	top:0;
+}
+.menu-top ul li{
+	display:inline;
+}
+.menu-login{
+	float:right;
+	margin-top:12px;
+	right:1px;
 }
