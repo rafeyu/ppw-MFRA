@@ -1,19 +1,50 @@
+<!doctype HTML>
 <html>
 	<head>
 		<title>Final project PPW</title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="style-cari.css" />
+		<link rel="javascript" type="text/javascript" href="float.js" />
 	</head>
 	<body>
 		<div id="container">
-			<div id="header"></div>
-			<div id="menu-box"></div>
+			<div id="header">
+				<div class="menu-top">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Jual</a></li>
+						<li><a href="#">Beli</a></li>
+						<li><a href="#">Bantuan</a></li>
+						<li><a href="#">Tentang</a></li>
+						<li><a href="#">Kontak</a></li>
+					</ul>
+				</div>
+			</div>
 			<div id="content">
-				<div id="breadcrumb-box"></div>
+				<div id="menu-box">
+					<!-- <div id="float-navbar"></div> -->
+					<span style="float:left">
+					<form action="cari.html">
+						<input type="text" placeholder="Cari kategori"/>
+						<select>
+							<option>Daerah</option>
+							<option>Jakarta</option>
+							<option>Yogyakarta</option>
+							<option>Kalimantan</option>
+						</select>
+						<input type="submit" value="Search" />
+					</form>
+					</span>
+					<span style="float:right;margin-left:1px;">
+					Toko saya | Iklan | Akun
+					</span>
+				</div>
 				<div id="box-kiri"></div>
-				<div id="recent-product"></div>
+				<div id="harga-box"></div>
+				<div id="tipe-harga-box"></div>
 				<div id="top-product"></div>
 			</div>
 			<div id="footer"></div>
 		</div>
 	</body>
 </html>
+
