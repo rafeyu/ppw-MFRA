@@ -17,45 +17,6 @@ body{
 	margin-right:auto;
 	background-color:#FF0000;
 }
-#container #header #menu-top{
-	float:right;
-	width:386px;
-	height:26px;
-	margin-top:0;
-	margin-right:50;
-}
-#container #header #menu-top ul.menu-top{
-	margin-right:1px;
-	margin-top:0;
-	float:right;
-}
-#container #header #menu-top ul li{
-	display:inline;
-	border-left:1px solid;
-	padding-left:0.3em;
-}
-#container #header #menu-top a{
-	font-size:11px;
-	font-family:calibri;
-	text-decoration:none;
-}
-#container #header #menu-login{
-	float:right;
-	width:386px;
-	height:26px;
-	margin-top:0px;
-	margin-right:0;
-}
-#container #header #menu-top ul.menu-login{
-	margin-right:1px;
-	margin-top:0;
-	float:right;
-}
-#container #header #menu-login ul li{
-	display:inline;
-	border-left:1px solid;
-	padding-left:0.3em;
-}
 #container #content{
 	width:965px;
 	height:920px;
@@ -67,16 +28,6 @@ body{
 	background-color:#DEDEDE;
 	position:relative;
 }
-#container #content #menu-box ul.menu-box{
-	float:right;
-	margin-right:5px;
-	margin-top:auto;
-}
-#container #content #menu-box ul li{
-	display:inline;
-	border-left:1px solid;
-	padding-left:0.3em;
-}
 #container #content #menu-box #float-navbar{
  	align:center;
  	position:fixed;
@@ -84,18 +35,13 @@ body{
  	width:100%;
  	left:0px;
  	color:#000;
- 	z-index:-1;
+ 	/*z-index:-1;*/
  	/*filter: alphaundefinedopacity: 80);*/
 	/*top:112;*/
 	left:auto;
 	right:auto;
 	width:965px;
 	height:35px; 
-}
-#container #content #menu-box a.menu{
-	font-family:calibri;
-	font-size:11px;
-	text-decoration:none;
 }
 #container #content #box-kiri{
 	float:left;
@@ -116,25 +62,6 @@ body{
 	margin-right:5px;
 	background-color:#4f5eff;
 }
-#container #content #harga-box{
-	width:370px;
-	height:136px;
-	float:right;
-	margin-left:5px;
-	margin-top:15px;
-	margin-right:5px;
-	background-color:#4f5eff;
-}
-#container #content #tipe-harga-box{
-	width:365px;
-	height:136px;
-	float:right;
-	margin-left:5px;
-	margin-top:15px;
-	margin-right:0px;
-	background-color:#4f5eff;
-}
-
 #container #content #top-product{
 	width:740px;
 	height:506px;
@@ -144,43 +71,22 @@ body{
 	margin-right:5px;
 	background-color:#4fffd3;
 }
-#container #content #bantuan{
-	width:740px;
-	height:506px;
-	float:right;
-	margin-left:15px;
-	margin-top:15px;
-	margin-right:5px;
-	background-color:#4fffd3;
-}
 #container #footer{
 	width:965px;
 	height:60px;
 	margin-top:10px;
 	background-color:#800000;
 }
-#container #footer .copy{
-	font-family:calibri;
-	font-size:12px;
-	margin-left:450px;
+.menu-top{
+	float:right;
+	margin-right:1px;
+	top:0;
 }
-a.backtop{
- 	position:fixed;
-	right:30px;
-  	bottom:10px;
-  	z-index:99;
-  	font-weight:bold;
-  	font-size:13px;
-	color:#ffffff;
-  	background-color:#000000;
-  	text-decoration:none;
-	border-radius:15px;
-	font-family:verdana;
-
+.menu-top ul li{
+	display:inline;
 }
-input.log{
-	margin-left:100px;
-}
-.red{
-	color:#ff0000;
+.menu-login{
+	float:right;
+	margin-top:12px;
+	right:1px;
 }
